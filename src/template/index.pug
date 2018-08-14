@@ -1,0 +1,114 @@
+extends _layout/layout.pug
+block main
+	section.home-slider
+		.container
+			.row
+				.col
+					h1 Hi there!we are the new kids on the block and we build awesome websites and mobile apps
+					p
+						a.btn.btn-more(href="#") work with us 
+	section.home-services
+		.container
+			.row 
+				.col 
+					h2 SERVICES WE PROVIDE
+					p We are working with both individuals and businesses from all over globe
+			.row
+				- for (var x = 1; x < 5; x++)
+					.col-sm-6.col-md-3
+						img(src="./img/home_icon_"+ x + ".png", alt="", srcset="")
+						h3 branding 
+						p Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tempore, ducimus cum commodi adipisci odio,
+	section.home_meet_our
+		.container
+			.row
+				.col
+					h2 MEET OUR BEAUTIFUL TEAM
+			.row
+				.col
+					p We are a small team of designers and developers, who help brand
+			.row
+				.col-md-3
+					img(src="./img/home_imager_epresent_1.png", alt="" class="border_radius")
+					h3 ANNE HATHAWAY
+					p
+						a(href="#") CEO/MAKETING GURU
+					p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi consequuntur cumque reiciendis soluta illum, veritatis dolorem,
+					ul
+						li
+							i.fa.fa-facebook
+						li
+							i.fa.fa-twitter
+						li
+							i.fa.fa-linkedin
+						li
+							i.fa.fa-envelope-o
+				.col-md-3
+					img(src="./img/home_imager_epresent_1.png", alt="" class="border_radius")
+					h3 ANNE HATHAWAY
+					p
+						a(href="#") CEO/MAKETING GURU
+					p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi consequuntur cumque reiciendis soluta illum, veritatis dolorem,
+					ul
+						li
+							i.fa.fa-facebook
+						li
+							i.fa.fa-twitter
+						li
+							i.fa.fa-linkedin
+						li
+							i.fa.fa-envelope-o
+				.col-md-3
+					img(src="./img/home_imager_epresent_1.png", alt="" class="border_radius")
+					h3 ANNE HATHAWAY
+					p
+						a(href="#") CEO/MAKETING GURU
+					p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi consequuntur cumque reiciendis soluta illum, veritatis dolorem,
+					ul
+						li
+							i.fa.fa-facebook
+						li
+							i.fa.fa-twitter
+						li
+							i.fa.fa-linkedin
+						li
+							i.fa.fa-envelope-o
+				.col-md-3
+					img(src="./img/home_imager_epresent_1.png", alt="" class="border_radius")
+					h3.border_radius ANNE HATHAWAY
+					p
+						a(href="#") CEO/MAKETING GURU
+					p Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi consequuntur cumque reiciendis soluta illum, veritatis dolorem,
+					ul
+						li
+							i.fa.fa-facebook
+						li
+							i.fa.fa-twitter
+						li
+							i.fa.fa-linkedin
+						li
+							i.fa.fa-envelope-o
+	section.home_wegotskill
+		.container
+			.row
+				.col
+					h2 WE GOT SKILLS
+					P Lorem ipsum dolor sit amet consectetur adipisicing elit.
+			.row.mt-5
+				.col-sm-6.col-md-3
+					.progress-circle.progress-90
+						span 90%
+					h3 Web Design
+				.col-sm-6.col-md-3
+					.progress-circle.progress-75
+						span 75%
+					h3 HTML / CSS
+				.col-sm-6.col-md-3
+					.progress-circle.progress-70
+						span 70%
+					h3 GRAPHIC DESIGN
+				.col-sm-6.col-md-3
+					.progress-circle.progress-85
+						span 85%
+					h3 UI
+					
